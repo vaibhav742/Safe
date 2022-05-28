@@ -1,0 +1,444 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.womensafteyhackfair"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.SEND_SMS" />
+11-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:6:5-65
+12-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:6:22-63
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:9:5-77
+15-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:9:22-74
+16    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+16-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:10:5-84
+16-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:10:22-82
+17    <uses-permission android:name="android.permission.READ_CONTACTS" />
+17-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:11:5-72
+17-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:11:22-69
+18    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+18-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:12:5-73
+18-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:12:22-70
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->[:flutter_background_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_background_service\intermediates\library_manifest\release\AndroidManifest.xml:8:5-81
+19-->[:flutter_background_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_background_service\intermediates\library_manifest\release\AndroidManifest.xml:8:22-78
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[:flutter_background_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_background_service\intermediates\library_manifest\release\AndroidManifest.xml:9:5-68
+20-->[:flutter_background_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_background_service\intermediates\library_manifest\release\AndroidManifest.xml:9:22-65
+21
+22    <queries>
+22-->[:contacts_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\contacts_service\intermediates\library_manifest\release\AndroidManifest.xml:11:5-24:15
+23        <intent>
+23-->[:contacts_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\contacts_service\intermediates\library_manifest\release\AndroidManifest.xml:12:9-14:18
+24            <action android:name="android.accounts.AccountAuthenticator" />
+24-->[:contacts_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\contacts_service\intermediates\library_manifest\release\AndroidManifest.xml:13:13-76
+24-->[:contacts_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\contacts_service\intermediates\library_manifest\release\AndroidManifest.xml:13:21-73
+25        </intent>
+26        <!-- Allows the app to load an icon corresponding to the custom MIME type. -->
+27        <intent>
+27-->[:contacts_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\contacts_service\intermediates\library_manifest\release\AndroidManifest.xml:16:9-23:18
+28            <action android:name="android.intent.action.VIEW" />
+28-->[:contacts_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\contacts_service\intermediates\library_manifest\release\AndroidManifest.xml:17:13-65
+28-->[:contacts_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\contacts_service\intermediates\library_manifest\release\AndroidManifest.xml:17:21-62
+29
+30            <data
+30-->[:contacts_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\contacts_service\intermediates\library_manifest\release\AndroidManifest.xml:19:13-22:44
+31                android:host="com.android.contacts"
+31-->[:contacts_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\contacts_service\intermediates\library_manifest\release\AndroidManifest.xml:20:17-52
+32                android:mimeType="vnd.android.cursor.item/*"
+32-->[:contacts_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\contacts_service\intermediates\library_manifest\release\AndroidManifest.xml:21:17-61
+33                android:scheme="content" />
+33-->[:contacts_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\contacts_service\intermediates\library_manifest\release\AndroidManifest.xml:22:17-41
+34        </intent>
+35    </queries>
+36
+37    <uses-permission android:name="android.permission.READ_SMS" />
+37-->[:sms_maintained] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\sms_maintained\intermediates\library_manifest\release\AndroidManifest.xml:7:5-67
+37-->[:sms_maintained] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\sms_maintained\intermediates\library_manifest\release\AndroidManifest.xml:7:22-64
+38    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+38-->[:sms_maintained] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\sms_maintained\intermediates\library_manifest\release\AndroidManifest.xml:9:5-70
+38-->[:sms_maintained] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\sms_maintained\intermediates\library_manifest\release\AndroidManifest.xml:9:22-67
+39    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+39-->[:sms_maintained] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\sms_maintained\intermediates\library_manifest\release\AndroidManifest.xml:10:5-75
+39-->[:sms_maintained] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\sms_maintained\intermediates\library_manifest\release\AndroidManifest.xml:10:22-72
+40    <uses-permission android:name="android.permission.READ_PROFILE" />
+40-->[:sms_maintained] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\sms_maintained\intermediates\library_manifest\release\AndroidManifest.xml:12:5-71
+40-->[:sms_maintained] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\sms_maintained\intermediates\library_manifest\release\AndroidManifest.xml:12:22-68
+41    <uses-permission android:name="android.permission.CALL_PHONE" />
+41-->[:flutter_phone_direct_caller] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_phone_direct_caller\intermediates\library_manifest\release\AndroidManifest.xml:9:5-69
+41-->[:flutter_phone_direct_caller] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_phone_direct_caller\intermediates\library_manifest\release\AndroidManifest.xml:9:22-66
+42
+43    <uses-feature
+43-->[:flutter_phone_direct_caller] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_phone_direct_caller\intermediates\library_manifest\release\AndroidManifest.xml:11:5-13:36
+44        android:name="android.hardware.telephony"
+44-->[:flutter_phone_direct_caller] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_phone_direct_caller\intermediates\library_manifest\release\AndroidManifest.xml:12:9-50
+45        android:required="false" />
+45-->[:flutter_phone_direct_caller] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_phone_direct_caller\intermediates\library_manifest\release\AndroidManifest.xml:13:9-33
+46
+47    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+47-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:26:5-79
+47-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:26:22-76
+48
+49    <application
+49-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:13:4-50:19
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.2.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\ab09df0f6e726efdacbb9ff0f660d08c\core-1.2.0\AndroidManifest.xml:24:18-86
+51        android:icon="@mipmap/ic_launcher"
+51-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:15:9-43
+52        android:label="Saahshe" >
+52-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:14:9-32
+53        <activity
+53-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:16:9-44:20
+54            android:name="com.example.womensafteyhackfair.MainActivity"
+54-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:17:13-41
+55            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+55-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:20:13-163
+56            android:hardwareAccelerated="true"
+56-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:21:13-47
+57            android:launchMode="singleTop"
+57-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:18:13-43
+58            android:theme="@style/LaunchTheme"
+58-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:19:13-47
+59            android:windowSoftInputMode="adjustResize" >
+59-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:22:13-55
+60
+61            <!--
+62                 Specifies an Android theme to apply to this Activity as soon as
+63                 the Android process has started. This theme is visible to the user
+64                 while the Flutter UI initializes. After that, this theme continues
+65                 to determine the Window background behind the Flutter UI.
+66            -->
+67            <meta-data
+67-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:27:13-30:17
+68                android:name="io.flutter.embedding.android.NormalTheme"
+68-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:28:15-70
+69                android:resource="@style/NormalTheme" />
+69-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:29:15-52
+70            <!--
+71                 Displays an Android View that continues showing the launch screen
+72                 Drawable until Flutter paints its first frame, then this splash
+73                 screen fades out. A splash screen is useful to avoid any visual
+74                 gap between the end of Android's launch screen and the painting of
+75                 Flutter's first frame.
+76            -->
+77            <meta-data
+77-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:36:13-39:17
+78                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+78-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:37:15-79
+79                android:resource="@drawable/launch_background" />
+79-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:38:15-61
+80
+81            <intent-filter>
+81-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:40:13-43:29
+82                <action android:name="android.intent.action.MAIN" />
+82-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:41:17-68
+82-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:41:25-66
+83
+84                <category android:name="android.intent.category.LAUNCHER" />
+84-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:42:17-76
+84-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:42:27-74
+85            </intent-filter>
+86        </activity>
+87        <!--
+88             Don't delete the meta-data below.
+89             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+90        -->
+91        <meta-data
+91-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:47:9-49:33
+92            android:name="flutterEmbedding"
+92-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:48:13-44
+93            android:value="2" />
+93-->C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\android\app\src\main\AndroidManifest.xml:49:13-30
+94
+95        <provider
+95-->[:flutter_webview_plugin] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:9:9-18:20
+96            android:name="androidx.core.content.FileProvider"
+96-->[:flutter_webview_plugin] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:10:13-62
+97            android:authorities="com.example.womensafteyhackfair.fileprovider"
+97-->[:flutter_webview_plugin] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:11:13-64
+98            android:exported="false"
+98-->[:flutter_webview_plugin] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:12:13-37
+99            android:grantUriPermissions="true" >
+99-->[:flutter_webview_plugin] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:13:13-47
+100            <meta-data
+100-->[:flutter_webview_plugin] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:15:13-17:53
+101                android:name="android.support.FILE_PROVIDER_PATHS"
+101-->[:flutter_webview_plugin] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:16:17-67
+102                android:resource="@xml/filepaths" />
+102-->[:flutter_webview_plugin] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:17:17-50
+103        </provider>
+104
+105        <service android:name="id.flutter.flutter_background_service.BackgroundService" />
+105-->[:flutter_background_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_background_service\intermediates\library_manifest\release\AndroidManifest.xml:12:9-91
+105-->[:flutter_background_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_background_service\intermediates\library_manifest\release\AndroidManifest.xml:12:18-88
+106
+107        <receiver android:name="id.flutter.flutter_background_service.WatchdogReceiver" />
+107-->[:flutter_background_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_background_service\intermediates\library_manifest\release\AndroidManifest.xml:14:9-91
+107-->[:flutter_background_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_background_service\intermediates\library_manifest\release\AndroidManifest.xml:14:19-88
+108        <receiver android:name="id.flutter.flutter_background_service.BootReceiver" >
+108-->[:flutter_background_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_background_service\intermediates\library_manifest\release\AndroidManifest.xml:15:9-19:20
+108-->[:flutter_background_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_background_service\intermediates\library_manifest\release\AndroidManifest.xml:15:19-84
+109            <intent-filter>
+109-->[:flutter_background_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_background_service\intermediates\library_manifest\release\AndroidManifest.xml:16:13-18:29
+110                <action android:name="android.intent.action.BOOT_COMPLETED" />
+110-->[:flutter_background_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_background_service\intermediates\library_manifest\release\AndroidManifest.xml:17:17-79
+110-->[:flutter_background_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_background_service\intermediates\library_manifest\release\AndroidManifest.xml:17:25-76
+111            </intent-filter>
+112        </receiver>
+113
+114        <service
+114-->[:background_location] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\background_location\intermediates\library_manifest\release\AndroidManifest.xml:12:9-17:37
+115            android:name="com.almoullim.background_location.LocationUpdatesService"
+115-->[:background_location] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\background_location\intermediates\library_manifest\release\AndroidManifest.xml:13:13-84
+116            android:enabled="true"
+116-->[:background_location] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\background_location\intermediates\library_manifest\release\AndroidManifest.xml:14:13-35
+117            android:exported="true"
+117-->[:background_location] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\background_location\intermediates\library_manifest\release\AndroidManifest.xml:15:13-36
+118            android:foregroundServiceType="location"
+118-->[:background_location] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\background_location\intermediates\library_manifest\release\AndroidManifest.xml:16:13-53
+119            android:permission="" />
+119-->[:background_location] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\background_location\intermediates\library_manifest\release\AndroidManifest.xml:17:13-34
+120
+121        <activity
+121-->[:url_launcher] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
+122            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+122-->[:url_launcher] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
+123            android:exported="false"
+123-->[:url_launcher] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
+124            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+124-->[:url_launcher] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
+125        <activity
+125-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\56c9c872a913448d527291d4fa86cf75\jetified-play-services-base-17.2.1\AndroidManifest.xml:23:9-26:75
+126            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+126-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\56c9c872a913448d527291d4fa86cf75\jetified-play-services-base-17.2.1\AndroidManifest.xml:24:13-79
+127            android:exported="false"
+127-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\56c9c872a913448d527291d4fa86cf75\jetified-play-services-base-17.2.1\AndroidManifest.xml:25:13-37
+128            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+128-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\56c9c872a913448d527291d4fa86cf75\jetified-play-services-base-17.2.1\AndroidManifest.xml:26:13-72
+129
+130        <provider
+130-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:31:9-37:35
+131            android:name="androidx.work.impl.WorkManagerInitializer"
+131-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:32:13-69
+132            android:authorities="com.example.womensafteyhackfair.workmanager-init"
+132-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:33:13-68
+133            android:directBootAware="false"
+133-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:34:13-44
+134            android:exported="false"
+134-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:35:13-37
+135            android:multiprocess="true" />
+135-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:36:13-40
+136
+137        <service
+137-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:39:9-44:35
+138            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+138-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:40:13-88
+139            android:directBootAware="false"
+139-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:41:13-44
+140            android:enabled="@bool/enable_system_alarm_service_default"
+140-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:42:13-72
+141            android:exported="false" />
+141-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:43:13-37
+142        <service
+142-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:45:9-51:35
+143            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+143-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:46:13-84
+144            android:directBootAware="false"
+144-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:47:13-44
+145            android:enabled="@bool/enable_system_job_service_default"
+145-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:48:13-70
+146            android:exported="true"
+146-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:49:13-36
+147            android:permission="android.permission.BIND_JOB_SERVICE" />
+147-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:50:13-69
+148        <service
+148-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:52:9-57:35
+149            android:name="androidx.work.impl.foreground.SystemForegroundService"
+149-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:53:13-81
+150            android:directBootAware="false"
+150-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:54:13-44
+151            android:enabled="@bool/enable_system_foreground_service_default"
+151-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:55:13-77
+152            android:exported="false" />
+152-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:56:13-37
+153
+154        <receiver
+154-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:59:9-64:35
+155            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+155-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:60:13-88
+156            android:directBootAware="false"
+156-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:61:13-44
+157            android:enabled="true"
+157-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:62:13-35
+158            android:exported="false" />
+158-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:63:13-37
+159        <receiver
+159-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:65:9-75:20
+160            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+160-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:66:13-106
+161            android:directBootAware="false"
+161-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:67:13-44
+162            android:enabled="false"
+162-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:68:13-36
+163            android:exported="false" >
+163-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:69:13-37
+164            <intent-filter>
+164-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:71:13-74:29
+165                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+165-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:72:17-87
+165-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:72:25-84
+166                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+166-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:73:17-90
+166-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:73:25-87
+167            </intent-filter>
+168        </receiver>
+169        <receiver
+169-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:76:9-86:20
+170            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+170-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:77:13-104
+171            android:directBootAware="false"
+171-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:78:13-44
+172            android:enabled="false"
+172-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:79:13-36
+173            android:exported="false" >
+173-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:80:13-37
+174            <intent-filter>
+174-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:82:13-85:29
+175                <action android:name="android.intent.action.BATTERY_OKAY" />
+175-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:83:17-77
+175-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:83:25-74
+176                <action android:name="android.intent.action.BATTERY_LOW" />
+176-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:84:17-76
+176-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:84:25-73
+177            </intent-filter>
+178        </receiver>
+179        <receiver
+179-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:87:9-97:20
+180            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+180-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:88:13-104
+181            android:directBootAware="false"
+181-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:89:13-44
+182            android:enabled="false"
+182-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:90:13-36
+183            android:exported="false" >
+183-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:91:13-37
+184            <intent-filter>
+184-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:93:13-96:29
+185                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+185-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:94:17-83
+185-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:94:25-80
+186                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+186-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:95:17-82
+186-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:95:25-79
+187            </intent-filter>
+188        </receiver>
+189        <receiver
+189-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:98:9-107:20
+190            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+190-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:99:13-103
+191            android:directBootAware="false"
+191-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:100:13-44
+192            android:enabled="false"
+192-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:101:13-36
+193            android:exported="false" >
+193-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:102:13-37
+194            <intent-filter>
+194-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:104:13-106:29
+195                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+195-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:105:17-79
+195-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:105:25-76
+196            </intent-filter>
+197        </receiver>
+198        <receiver
+198-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:108:9-119:20
+199            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+199-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:109:13-88
+200            android:directBootAware="false"
+200-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:110:13-44
+201            android:enabled="false"
+201-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:111:13-36
+202            android:exported="false" >
+202-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:112:13-37
+203            <intent-filter>
+203-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:114:13-118:29
+204                <action android:name="android.intent.action.BOOT_COMPLETED" />
+204-->[:flutter_background_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_background_service\intermediates\library_manifest\release\AndroidManifest.xml:17:17-79
+204-->[:flutter_background_service] C:\Users\acer\Downloads\amman1\Amaan\Amaan-Women-Safety-App-main\build\flutter_background_service\intermediates\library_manifest\release\AndroidManifest.xml:17:25-76
+205                <action android:name="android.intent.action.TIME_SET" />
+205-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:116:17-73
+205-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:116:25-70
+206                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+206-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:117:17-81
+206-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:117:25-78
+207            </intent-filter>
+208        </receiver>
+209        <receiver
+209-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:120:9-129:20
+210            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+210-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:121:13-99
+211            android:directBootAware="false"
+211-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:122:13-44
+212            android:enabled="@bool/enable_system_alarm_service_default"
+212-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:123:13-72
+213            android:exported="false" >
+213-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:124:13-37
+214            <intent-filter>
+214-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:126:13-128:29
+215                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+215-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:127:17-98
+215-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:127:25-95
+216            </intent-filter>
+217        </receiver>
+218        <receiver
+218-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:130:9-140:20
+219            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+219-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:131:13-78
+220            android:directBootAware="false"
+220-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:132:13-44
+221            android:enabled="true"
+221-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:133:13-35
+222            android:exported="true"
+222-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:134:13-36
+223            android:permission="android.permission.DUMP" >
+223-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:135:13-57
+224            <intent-filter>
+224-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:137:13-139:29
+225                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+225-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:138:17-88
+225-->[androidx.work:work-runtime:2.4.0] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\83f4cab793bc001a52521fc97ce7b3f1\work-runtime-2.4.0\AndroidManifest.xml:138:25-85
+226            </intent-filter>
+227        </receiver>
+228
+229        <meta-data
+229-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\5d62da74f15f5324a5f492c9e5cf6ab9\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
+230            android:name="com.google.android.gms.version"
+230-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\5d62da74f15f5324a5f492c9e5cf6ab9\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
+231            android:value="@integer/google_play_services_version" />
+231-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\5d62da74f15f5324a5f492c9e5cf6ab9\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
+232
+233        <service
+233-->[androidx.room:room-runtime:2.2.5] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\88ed312290ce410cdde27e65765480d3\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+234            android:name="androidx.room.MultiInstanceInvalidationService"
+234-->[androidx.room:room-runtime:2.2.5] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\88ed312290ce410cdde27e65765480d3\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+235            android:directBootAware="true"
+235-->[androidx.room:room-runtime:2.2.5] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\88ed312290ce410cdde27e65765480d3\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+236            android:exported="false" />
+236-->[androidx.room:room-runtime:2.2.5] C:\Users\acer\.gradle\caches\transforms-2\files-2.1\88ed312290ce410cdde27e65765480d3\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+237    </application>
+238
+239</manifest>

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\acer\\Downloads\\amman1\\Amaan\\Amaan-Women-Safety-App-main\\build\\flutter_background_service\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-2\\files-2.1\\2d7cf3d26896fbdea41fbefd697f5584\\core-1.1.0\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\acer\\Downloads\\amman1\\Amaan\\Amaan-Women-Safety-App-main\\build\\flutter_background_service\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ic_bg_service_small.png",
+        "source": "C:\\Users\\acer\\Downloads\\flutter\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\flutter_background_service-0.1.5\\android\\src\\main\\res\\drawable-xhdpi\\ic_bg_service_small.png"
+    },
+    {
+        "merged": "C:\\Users\\acer\\Downloads\\amman1\\Amaan\\Amaan-Women-Safety-App-main\\build\\flutter_background_service\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-2\\files-2.1\\2d7cf3d26896fbdea41fbefd697f5584\\core-1.1.0\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\acer\\Downloads\\amman1\\Amaan\\Amaan-Women-Safety-App-main\\build\\flutter_background_service\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-2\\files-2.1\\2d7cf3d26896fbdea41fbefd697f5584\\core-1.1.0\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\acer\\Downloads\\amman1\\Amaan\\Amaan-Women-Safety-App-main\\build\\flutter_background_service\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-2\\files-2.1\\2d7cf3d26896fbdea41fbefd697f5584\\core-1.1.0\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\acer\\Downloads\\amman1\\Amaan\\Amaan-Women-Safety-App-main\\build\\flutter_background_service\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-2\\files-2.1\\2d7cf3d26896fbdea41fbefd697f5584\\core-1.1.0\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    }
+]
